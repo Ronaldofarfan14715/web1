@@ -1,0 +1,193 @@
+#navbar-title{
+
+
+    font-size: 30px;
+    margin-left: 15%;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar{
+    padding: 0;
+    height: 100%;
+    margin: auto;
+}
+
+#nav-link{
+    width: 100px;
+    margin: auto;
+}
+
+#nav-link:hover{
+    background-color: darkcyan;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#ul-nav{
+    
+    height: 100%;
+   
+}
+
+
+
+#informacion{
+    background-color: lightgray;
+    height: 100%x;
+}
+#informacion>p{
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+#slide{
+
+    
+    
+    background-color: darkcyan;
+}
+
+@media (min-width:420px){
+    #slide {
+        background-color: darkcyan;
+        height: 500px;  
+    } 
+}
+
+@media (min-width: 760px) {
+    #slide   {
+        background: darkcyan;
+        height: 400px;
+        }
+    }
+
+
+   
+    #title-slide{
+        color: white;
+        font-size: 50px;
+        
+    }
+    @media (min-width:420px){
+        #title-slide {
+            margin-top: 140px;
+            color: white;
+            font-size: 50px;
+        }
+    }
+    
+    @media (min-width: 760px) {
+        #title-slide   {
+            margin-top: 110px;
+            
+            color: white;
+            font-size: 55px;
+        }
+    }
+
+
+
+
+    #subtitle-slide{
+        color: white;
+        font-size: 20px;
+        
+    }
+
+
+@media (min-width:420px){
+    #subtitle-slide {
+        color: white;
+        font-size: 25px;
+        
+    }
+}
+@media (min-width: 760px) {
+    #subtitle-slide {
+        color: white;
+        font-size: 25px;
+        }
+    }
+
+
+
+    #cohete{
+       
+        position: relative;
+        left: 55%;
+        width: 130px;
+        margin-top: 0px;
+    } 
+
+
+
+@media (min-width:420px){
+    #cohete {
+        position: absolute;
+        left: 55%;
+        width: 180px;
+        margin-top: 28px;
+        }
+}
+
+
+@media (min-width: 760px) {
+    #cohete   {
+        position: absolute;
+        left: 70%;
+        width: 150px;
+        margin-top: -155px;
+        }
+    }
+
+    #robot{
+       
+        
+        left: 1%;
+        position: absolute;
+        max-width: 170px;
+        top: 140px;
+        clip: rect(0px  200px  126px  0px);
+    } 
+
+
+@media (min-width:420px){
+    #robot {
+        max-width: 230px;
+        position: absolute;
+        top: 320px;
+        margin-left: 0px;
+        clip: rect(0px  400px  180px  0px);
+        }
+}
+
+@media (min-width: 760px) {
+    #robot   {
+        max-width: 250px;
+        display: inline-block;
+        position: absolute;
+        top: 216px;
+        margin-left: 10px;
+        clip: rect(0px  400px  185px  0px);
+    }
+}
+
+
+#btn-out{
+    
+    margin-left: 46%;
+    border: 1px solid white;
+    background-color: darkcyan;
+    color: white;
+}
+
+#btn-out:hover{
+   
+    border: 1px solid black;
+    background-color: darkslategray;
+    color: white;
+}
